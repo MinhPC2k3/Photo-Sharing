@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9edda01d.css",
+    "main.js": "/static/js/main.388f8be1.js",
+    "static/js/453.9141b368.chunk.js": "/static/js/453.9141b368.chunk.js",
+    "static/media/background-aaa-stack.jpg": "/static/media/background-aaa-stack.3aa992f839192dee9c21.jpg",
+    "static/media/logo_app.png": "/static/media/logo_app.244b4fe378cdca6d3e3a.png",
+    "static/media/en_US.svg": "/static/media/en_US.b149feedd3ce6fb7fdb79b2485f0076d.svg",
+    "static/media/language.svg": "/static/media/language.4379b7c530435d11ab059f8f6ba3db37.svg",
+    "static/media/sun.svg": "/static/media/sun.14821835bf6535dcff7ae053de0a9656.svg",
+    "static/media/moon.svg": "/static/media/moon.ac4e82e0294159ecd412373b68a8e651.svg",
+    "index.html": "/index.html",
+    "main.9edda01d.css.map": "/static/css/main.9edda01d.css.map",
+    "main.388f8be1.js.map": "/static/js/main.388f8be1.js.map",
+    "453.9141b368.chunk.js.map": "/static/js/453.9141b368.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9edda01d.css",
+    "static/js/main.388f8be1.js"
+  ]
+}

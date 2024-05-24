@@ -1,0 +1,38 @@
+.Card-container{
+    /* width: 500px;
+    height: 300px; */
+    /* height: 300px; */
+    width: 50%;
+    /* overflow: auto; */
+    background-color: #d9e9ff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.Card-header{
+    /* display: flex; */
+    align-items: center;
+    padding-top:10px;
+    padding-left: 10px;
+}
+.Card-header p{
+    display: inline;
+    font-size: large;
+    margin-left: 5px;
+}
+.Card-title p{
+    margin-top: 0px;
+    padding-left: 10px;
+}
+.Card-picture img{
+    height: 400px;
+    width: 100%;
+}
+
+.Card-button{
+    width:50%;
+    margin-bottom: 5px;
+}
+
+.Comment-group{
+    padding: 10px;
+}

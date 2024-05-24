@@ -1,0 +1,66 @@
+.appHeader{
+    background-color: white;
+    padding: 0 15px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Header-leading{
+  display: flex;
+  /* direction: ; */
+}
+
+.Header-leading p{
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  /* direction: ; */
+}
+.ant-layout-content{
+  height: 85vh;
+}
+.logout-drop-down{
+  font-size: 15px;
+}
+.logout-drop-down p{
+  margin: 0;
+}
+.actions {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > * {
+      margin-left: 30px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .notice {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+      }
+    }
+}
+
+.actions svg{
+    width: 20px;
+    height: 20px;
+}
+
+.Content{
+  justify-content: center;
+  display: flex;
+}
+
+.Create-post{
+  background-color: #d9e9ff;
+  color: black;
+}
