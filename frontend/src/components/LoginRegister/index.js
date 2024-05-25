@@ -1,6 +1,6 @@
 import '../assets/styles/Login.css';
 import logoLogin from '../assets/img/logo_app.png'
-import LoginForm from '../components/LoginForm';
+import LoginForm from '../component/LoginForm';
 import React, { useState } from "react";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Checkbox, Form, Input, message, Modal } from "antd";
@@ -12,7 +12,7 @@ import App from '../App';
 // import BackgroundLogin from '../img/background-aaa-stack.jpg'
 
 
-function LoginScreen ({setLoginData,setLoginProfilePicture,setLoginPhoneNum,setLoginUserID,setLoginEmail,setLoginToken}){
+function LoginForm ({setLoginData,setLoginProfilePicture,setLoginPhoneNum,setLoginUserID,setLoginEmail,setLoginToken}){
   const LoginForm = () => {
     const [profilePicture, setProfilePicture] = useState("");
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -154,31 +154,6 @@ function LoginScreen ({setLoginData,setLoginProfilePicture,setLoginPhoneNum,setL
           <Button type="primary" htmlType="submit" className="login-form-button">
             Log in
           </Button>
-          Or
-          <Button
-            type="link"
-            block
-            style={{ display: "inline", width: "90px", padding: "0px" }}
-            onClick={showModal}
-          >
-            Register now!
-          </Button>
-          <Modal
-            title="Edit Profile"
-            open={isModalOpen}
-            onCancel={handleCancel}
-            footer={null}
-            style={{ padding: "0px" }}
-            width={"600px"}
-          >
-            <Profile
-              submitModal={handleOk}
-              closeModal={handleCancel}
-              buttonFunc={signUp}
-              profilePicture={profilePicture}
-              setProfilePicture={setProfilePicture}
-            />
-          </Modal>
         </Form.Item>
       </Form>
     );

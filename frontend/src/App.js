@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginScreen from "./pages/Login";
-import AppLayout from "./component/layout/layout";
+import AppLayout from "./components/layout/layout";
 import Profile from "./pages/Profile";
 import { useState } from 'react';
 import userModal from './model/user'

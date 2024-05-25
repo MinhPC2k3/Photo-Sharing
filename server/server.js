@@ -76,7 +76,7 @@ mongoose
   .then(() => {
     console.log("connected to MongoDB");
     app.listen(port, () => {
-      console.log(`Node API app is running on port 3000`);
+      console.log(`Node API app is running on port 8080`);
     });
   })
   .catch((error) => {

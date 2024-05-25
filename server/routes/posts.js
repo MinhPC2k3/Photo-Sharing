@@ -1,9 +1,8 @@
 const express = require("express");
 const { body, validationResult } = require("express-validator");
-const Post = require("../models/post");
-const User = require("../models/user");
+const Post = require("../db/post");
+const User = require("../db/user");
 const checkAuth = require("../middleware/checkAuth");
-const uploadFileMiddleware = require("../middleware/imgMiddleware");
 const router = express.Router();
 
 router.post("/create", checkAuth, async (req, res) => {

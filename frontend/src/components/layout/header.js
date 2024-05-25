@@ -264,7 +264,7 @@ const HeaderComponent = ({
                   <span
                     style={{ cursor: "pointer" }}
                     onClick={() => {
-                      navigate("/login");
+                      navigate("/login",{replace : true});
                     }}
                     className="logout-drop-down"
                   >
